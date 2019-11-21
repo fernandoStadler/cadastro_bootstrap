@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Cadastro</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
+
+    <script>
+    
+    $(document).ready(function(){
+    $("#CPF").mask("999.999.999-99");
+});
+
+function dados(){
+
+    alert("Cadastro realizado com sucesso!")
+}
+    </script>
+<style>
+
+body{
+
+margin: 0px;
+
+}
+
+
+.card{
+
+    background-color: rgb(226, 224, 231);
+}
+.card-header {
+background-color: rgb(189, 11, 11);
+color: white;
+text-align: center;
+padding: 5vh;
+}
+.card-footer{
+
+background-color: rgb(189, 11, 11);
+color: white;
+text-align: center;
+padding: 15vh;
+
+}
+
+.container{
+
+  
+    background-color: rgba(153, 148, 148, 0.8);
+
+    width: 400px;
+    height: 450px;
+    border-radius:15px ;
+    color: white;
+    box-shadow: 10px 5px 18px black;
+}
+.botao{
+border-radius:15px;
+background-color:  rgb(189, 11, 11);
+box-shadow: 10px 5px 18px black;
+    
+color:white;
+}
+.botao:hover{
+    background-color:  rgb(146, 11, 11);
+    
+}
+
+
+
+.form-group{
+
+
+display:inline-flexbox;
+
+}
+
+.botao:active{
+
+background-color: rgb(235, 18, 18);
+
+
+}
+
+</style>
+</head>
+  <body class="total">
+      
+ <div class="card"> 
+     <div class="card-header">
+         Cadastro
+     </div>
+     <form class="" method="post" action="#">
+     <div class="card-body">
+         <div class="container">
+             <div class="form-group">
+                    <br><br><br><br>
+               <label for="nome">Nome: </label>
+               <input type="text" class="form-control" name="nome" id="nome" aria-describedby="nome" placeholder="Nome: ">
+               
+               <label for="Sobrenome">Sobrenome: </label>
+               <input type="text" class="form-control" name="Sobrenome" id="Sobrenome" aria-describedby="Sobrenome" placeholder="Sobrenome: ">
+               
+               <label for="CPF">CPF: </label>
+               <input type="text" class="form-control" name="CPF" id="CPF" aria-describedby="CPF" placeholder="CPF: " required="required">
+                <br>
+               <button type="submit" class="botao">Cadastrar</button>
+            </form>
+             </div>
+         </div>
+       
+     </div>
+    
+     <div class="card-footer">
+         Fernando Stadler - Todos os direitos reservados
+     </div>
+ </div>
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+body{
+
+    margin: 0px;
+    
+    }
+    
+    
+    .card{
+    
+        background-color: rgb(226, 224, 231);
+    }
+    .card-header {
+    background-color: rgb(189, 11, 11);
+    color: white;
+    text-align: center;
+    padding: 5vh;
+    }
+    .card-footer{
+    
+    background-color: rgb(189, 11, 11);
+    color: white;
+    text-align: center;
+    padding: 15vh;
+    
+    }
+    
+    .container{
+    
+      
+        background-color: rgba(153, 148, 148, 0.8);
+    
+        width: 400px;
+        height: 450px;
+        border-radius:15px ;
+        color: white;
+        box-shadow: 10px 5px 18px black;
+    }
+    .botao{
+    border-radius:15px;
+    background-color:  rgb(189, 11, 11);
+    box-shadow: 10px 5px 18px black;
+        
+    color:white;
+    }
+    .botao:hover{
+        background-color:  rgb(146, 11, 11);
+        
+    }
+    
+    
+    
+    .form-group{
+    
+    
+    display:inline-flexbox;
+    
+    }
+    
+    .botao:active{
+    
+    background-color: rgb(235, 18, 18);
+    
+    
+    }
+    
